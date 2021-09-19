@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Login 04</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="{{url_for('static', filename='css/style2.css')}}">
+
+	</head>
+  <body>
+	<section class="ftco-section">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-6 text-center mb-5">
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-md-12 col-lg-10">
+					<div class="wrap d-md-flex">
+						<div class="img" style="background-image: url(static/images/forgot.png);"></div>
+					<div class="login-wrap p-4 p-md-5">
+			      	 <div class="d-flex">
+			      		<div class="w-100">
+			      			<h3 class="mb-4">Forgot Password</h3>
+
+				  <form action="{{url_for('forgot')}}" class="signin-form" method="POST">
+			      		<div class="form-group mb-3">
+			      			<label class="label">User name</label>
+			      			<input type="text" class="form-control" placeholder="Username" name="username" required>
+			      		</div>
+		            <div class="form-group mb-3">
+		            	<label class="label">Email</label>
+		              <input type="text" class="form-control" placeholder="Email" name="email" required>
+		            </div>
+		            <div class="form-group">
+						<div id="msg">{{ msg }}</div>
+		            	<button type="submit" class="form-control btn btn-primary rounded submit px-3">Create New Password</button>
+		            </div>
+
+		          </form>
+
+                  <p class="text-center">Back to Home Page ! <a href="{{ url_for('login') }}">Login</a></p>
+
+		        </div>
+		      </div>
+			 </div>
+		   </div>
+		  </div>
+		 </div>
+		</div>
+
+	</section>
+
+  <script src="static/js/jquery1.min.js"></script>
+  <script src="static/js/popper1.js"></script>
+  <script src="static/js/bootstrap1.min.js"></script>
+  <script src="static/js/main1.js"></script>
+
+  </body>
+</html>
+
