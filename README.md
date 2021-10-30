@@ -1,6 +1,11 @@
 # User-login-GUI-using-python-Flask-web-framework-mySQL-database
 A simple compact user interface for login, create account and forgot password option by using MySQL database and Python Flask web framework
+#
 
+<img src="https://user-images.githubusercontent.com/84184475/139542961-c1d2ec68-bea5-469e-9c22-0449f82d1607.gif" width="600" height="250"/>
+
+
+#
 
 ###   Fig: Home page
 ![image](https://user-images.githubusercontent.com/84184475/133938109-5af2832f-d7f3-49c6-99a7-d4a9ba6404fe.png)                                     
